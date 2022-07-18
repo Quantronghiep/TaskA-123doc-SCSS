@@ -1,0 +1,335 @@
+@charset "UTF-8";
+.app .app__container .app_container-product-wide, .app .app__container .app__container-desciption, .app .app__container .app__container-banner .app__container--text, .app .header {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.app .header .header__phone, .app .header .header__description {
+  display: flex;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app .header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.app .header .header__description {
+  font-size: 30px;
+  color: #736559;
+  font-weight: 550;
+}
+.app .header .header__phone {
+  color: #20276c;
+  font-size: 35px;
+  font-weight: 550;
+}
+.app .app__container .app__container-banner {
+  position: relative;
+  padding-top: 38%; /* 50% chiều ngang của chính nó */
+  background: url("../images/banner.png") center/contain no-repeat;
+}
+.app .app__container .app__container-banner .app__container--text {
+  position: absolute;
+  width: 100%;
+  left: 115.5px;
+  top: 100px;
+}
+.app .app__container .app__container-banner .app__container--text .text__title {
+  font-size: 1.4rem;
+  word-spacing: 10px;
+  color: #736559;
+}
+.app .app__container .app__container-banner .app__container--text .text__content {
+  font-size: 2.4rem;
+  word-spacing: 10px;
+  font-weight: 800;
+  color: #736559;
+  line-height: 1.4;
+}
+.app .app__container .app__container-banner .app__container--text .text__content--detail {
+  word-spacing: 10px;
+  font-size: 1.4rem;
+  margin-top: 20px;
+  color: #2b2b2b;
+  line-height: 1.4;
+}
+.app .app__container .app__container-banner .app__container--text .call--phone {
+  padding: 10px;
+  margin-top: 100px;
+  background: #4285f4;
+  border-radius: 20px;
+  border: solid;
+  color: #fff;
+  font-size: 1.4rem;
+}
+.app .app__container .app__container-banner .app__container--text .call--phone:hover {
+  cursor: pointer;
+}
+.app .app__container .app__container-banner .app__container--form {
+  background-color: #f8ebdc;
+  width: auto;
+  position: absolute;
+  right: 115.5px;
+  top: 17px;
+  border-top: 20px solid #cbe48b;
+  width: 400px;
+  bottom: 17px;
+}
+.app .app__container .app__container-banner .app__container--form .form-title {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 550;
+  text-align: center;
+}
+.app .app__container .app__container-banner .app__container--form .form-content {
+  display: block;
+  padding: 10px;
+  width: 90%;
+  margin: 20px;
+  font-size: 1rem;
+}
+.app .app__container .app__container-banner .app__container--form input:first-child {
+  margin-top: 100px;
+}
+.app .app__container .app__container-banner .app__container--form .form-select {
+  display: block;
+  padding: 10px;
+  width: 90%;
+  margin: 20px;
+  font-size: 1rem;
+  color: rgb(34, 32, 32);
+}
+.app .app__container .app__container-banner .app__container--form .form-submit {
+  margin-top: 60px;
+  background-color: #4285f4;
+  border-radius: 20px;
+  border: 0px solid;
+  color: #fff;
+  font-size: 1.4rem;
+  margin-left: 100px;
+  padding: 8px;
+}
+.app .app__container .app__container-banner .app__container--form .form-submit:hover {
+  cursor: pointer;
+}
+.app .app__container .app__container-desciption {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.app .app__container .app__container-desciption .description__title {
+  margin-top: 100px;
+}
+.app .app__container .app__container-desciption .description__title .title-name {
+  color: #736559;
+  font-size: 1.8rem;
+  font-weight: 700;
+  word-spacing: 10px;
+}
+.app .app__container .app__container-desciption .description__title .title-subname {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  word-spacing: 5px;
+}
+.app .app__container .app__container-desciption .description__title .title-name-end {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  word-spacing: 5px;
+}
+.app .app__container .app__container-desciption .description__logo {
+  margin-top: 50px;
+  padding: 20px;
+}
+.app .app__container .app__container--living {
+  margin-top: 100px;
+  text-align: center;
+}
+.app .app__container .app__container--living .living--title {
+  color: #736559;
+  font-size: 1.8rem;
+  font-weight: 700;
+  word-spacing: 10px;
+}
+.app .app__container .app__container--living .living--lorem {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.app .app__container .app_container-product-wide .app_container-product {
+  margin-top: 70px;
+  display: flex;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+.app .app__container .app_container-product-wide .app_container-product .product-item {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.app .app__container .app_container-product-wide .app_container-product .product-item .item-icon i {
+  font-size: 70px;
+  color: #cbe48b;
+}
+.app .app__container .app_container-product-wide .app_container-product .product-item .item-name {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.app .app__container .app_container-product-wide .app_container-product .product-item .item-description {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  overflow: visible;
+}
+.app .app__container .app__container-question {
+  background-color: #5da7d7;
+  height: 250px;
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app .app__container .app__container-question .question-name {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 600;
+  word-spacing: 10px;
+  margin-left: 300px;
+}
+.app .app__container .app__container-question .question-btn {
+  padding: 20px;
+  background-color: #f9a31b;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 40%;
+  border: 0px solid;
+  margin-right: 300px;
+}
+.app .app__container .app__container-list {
+  background-color: #fdf1e7;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.app .app__container .app__container-list .list-name {
+  text-align: center;
+}
+.app .app__container .app__container-list .list-name h1 {
+  color: #736559;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.app .app__container .app__container-list .list-name p {
+  margin-top: 20px;
+}
+.app .app__container .app__container-list .list-product {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 250px;
+}
+.app .app__container .app__container-list .list-product .list-item {
+  border: 1px solid rgb(49, 42, 42);
+  border-radius: 10px;
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+.app .app__container .app__container-list .list-product .list-item img {
+  width: 100%;
+}
+.app .app__container .app__container-list .list-product .list-item h1 {
+  margin-top: 16px;
+  font-size: 1.4rem;
+  font-weight: 550;
+}
+.app .app__container .app__container-list .list-product .list-item p {
+  margin-top: 16px;
+}
+.app .app__container .app__container-list .list-product .list-item .btn-product {
+  margin-top: 20px;
+  background-color: #53a1d7;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: 0px solid;
+  font-size: 1.2rem;
+}
+.app .app__container .app__container-list .list-product .list-item .btn-product:hover {
+  cursor: pointer;
+}
+.app .app__container .app__container-list .list-link {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 20px auto 0;
+  text-align: center;
+}
+.app .footer .footer__map {
+  position: relative;
+}
+.app .footer .footer__map iframe {
+  width: 100%;
+}
+.app .footer .footer__map .footer-information {
+  position: absolute;
+  background-color: white;
+  top: 20px;
+  left: 30px;
+  bottom: 20px;
+  padding: 30px;
+}
+.app .footer .footer__map .footer-information .information-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.app .footer .footer__map .footer-information .information-title {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+.app .footer .footer__map .footer-information .information-btn {
+  margin-top: 30px;
+  background-color: #53a1d7;
+  border-radius: 20px;
+  border: 0px solid;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 8px;
+}
+.app .footer .footer__map .footer-information .contact-item {
+  margin-top: 20px;
+  display: flex;
+}
+.app .footer .footer__map .footer-information .contact-item i {
+  color: #cbe48b;
+}
+.app .footer .footer__map .footer-information .contact-item .item-description {
+  margin-left: 16px;
+  font-size: 1.2rem;
+  color: #20276c;
+  font-weight: 550;
+}
+.app .footer .footer__license {
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.app .footer .footer__license .license-name {
+  font-size: 1.2rem;
+  color: rgb(59, 56, 56);
+  margin-left: 600px;
+}
+.app .footer .footer__license .license-icon {
+  color: rgb(59, 56, 56);
+  margin-right: 600px;
+}/*# sourceMappingURL=style.css.map */
