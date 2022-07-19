@@ -248,21 +248,29 @@
 }
 .app .app__container .app__container-list .list-product .slick-prev:before {
   font-family: "Font Awesome 5 Free";
-  content: "\f359";
+  /* content: "\f0a9"; */
+  font-weight: 900;
   display: inline-block;
   vertical-align: middle;
-  font-weight: 900;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
+  padding: 4px 5px;
   color: rgb(146, 193, 247);
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid rgb(146, 193, 247);
 }
 .app .app__container .app__container-list .list-product .slick-next:before {
   font-family: "Font Awesome 5 Free";
-  content: "\f35a";
+  /* content: "\f0a9"; */
+  font-weight: 900;
   display: inline-block;
   vertical-align: middle;
-  font-weight: 900;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
+  padding: 4px 5px;
   color: rgb(146, 193, 247);
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid rgb(146, 193, 247);
 }
 .app .app__container .app__container-list .list-product .list-item {
   border-right: 1px solid rgb(49, 42, 42);

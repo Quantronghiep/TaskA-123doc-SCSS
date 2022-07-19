@@ -296,23 +296,30 @@
                 margin : 40px 200px;
                 .slick-prev:before {
                     font-family: "Font Awesome 5 Free";
-                    content: "\f359";
-                    display: inline-block;
-                    // padding-right: 3px;
-                    vertical-align: middle;
+                    /* content: "\f0a9"; */
                     font-weight: 900;
-                    font-size: 1.8rem;
+                    display: inline-block;
+                    vertical-align: middle;
+                    font-size: 2.2rem;
+                    padding: 4px 5px;
                     color: rgb(146, 193, 247);
+                    background-color: #fff;
+                    border-radius: 50%;
+                    border: 2px solid rgb(146, 193, 247);
+                   
                 }
                 .slick-next:before {
                     font-family: "Font Awesome 5 Free";
-                    content: "\f35a";
-                    display: inline-block;
-                    // padding-right: 3px;
-                    vertical-align: middle;
+                    /* content: "\f0a9"; */
                     font-weight: 900;
-                    font-size: 1.8rem;
+                    display: inline-block;
+                    vertical-align: middle;
+                    font-size: 2.2rem;
+                    padding: 4px 5px;
                     color: rgb(146, 193, 247);
+                    background-color: #fff;
+                    border-radius: 50%;
+                    border: 2px solid rgb(146, 193, 247);
                 }
 
                 .list-item {
