@@ -90,7 +90,7 @@
 }
 .app .app__container .app__container-banner .app__container--form .border-linear {
   height: 20px;
-  background-image: linear-gradient(90deg, rgb(129, 129, 214), rgb(107, 170, 107));
+  background-image: linear-gradient(90deg, #81bde2, #cbe48b);
 }
 .app .app__container .app__container-banner .app__container--form .form-title {
   font-size: 1.4rem;
@@ -246,6 +246,24 @@
   justify-content: space-between;
   margin: 40px 200px;
 }
+.app .app__container .app__container-list .list-product .slick-prev:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f359";
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: rgb(146, 193, 247);
+}
+.app .app__container .app__container-list .list-product .slick-next:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f35a";
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: rgb(146, 193, 247);
+}
 .app .app__container .app__container-list .list-product .list-item {
   border-right: 1px solid rgb(49, 42, 42);
   border-radius: 10px;
@@ -275,6 +293,7 @@
   padding: 8px 46px;
   border: 0px solid;
   font-size: 1.2rem;
+  font-weight: 600;
 }
 .app .app__container .app__container-list .list-product .list-item .btn-product:hover {
   cursor: pointer;
@@ -320,6 +339,7 @@
   font-size: 1.2rem;
   padding: 8px 32px;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 .app .footer .footer__map .footer-information .contact-item {
   margin-top: 20px;

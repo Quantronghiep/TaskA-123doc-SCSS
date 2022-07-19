@@ -107,7 +107,7 @@
 
                 .border-linear {
                     height: 20px;
-                    background-image: linear-gradient(90deg, rgb(129, 129, 214), rgb(107, 170, 107));
+                    background-image: linear-gradient(90deg, #81bde2, #cbe48b);
                 }
 
                 .form-title {
@@ -294,6 +294,26 @@
                 display: flex;
                 justify-content: space-between;
                 margin : 40px 200px;
+                .slick-prev:before {
+                    font-family: "Font Awesome 5 Free";
+                    content: "\f359";
+                    display: inline-block;
+                    // padding-right: 3px;
+                    vertical-align: middle;
+                    font-weight: 900;
+                    font-size: 1.8rem;
+                    color: rgb(146, 193, 247);
+                }
+                .slick-next:before {
+                    font-family: "Font Awesome 5 Free";
+                    content: "\f35a";
+                    display: inline-block;
+                    // padding-right: 3px;
+                    vertical-align: middle;
+                    font-weight: 900;
+                    font-size: 1.8rem;
+                    color: rgb(146, 193, 247);
+                }
 
                 .list-item {
                     border-right: 1px solid rgb(49, 42, 42);
@@ -326,6 +346,7 @@
                         padding: 8px 46px;
                         border: 0px solid;
                         font-size: 1.2rem;
+                        font-weight: 600;
                     }
                     .btn-product:hover {
                         cursor: pointer;
@@ -381,6 +402,7 @@
                     font-size: 1.2rem;
                     padding: 8px 32px;
                     margin-bottom: 20px;
+                    font-weight: 600;
                 }
 
                 .contact-item {
