@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+        
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+
+        
+        
 </head>
 
 <body>
@@ -19,7 +28,11 @@
             <div class="header__logo">
                 <img src="./assets/images/logo.png" alt="this is logo">
             </div>
-            <div class="header__phone">1-800-524-6126 </div>
+            <div class="header__phone">
+                <div class="number">
+                    1-800-524-6126 
+                </div>
+            </div>
         </div>
 
         <div class="app__container">
@@ -33,7 +46,7 @@
                     </div>
                     <div class="text__content--detail">
                         <p>We take care of your needs and desires </p>
-                        <p><b>now and in the future.</b>All of our senior independent</p>
+                        <p><b>now and in the future.</b> All of our senior independent</p>
                         <p>living communities offer several care options </p>
                         <p>should the need for additional services arise.</p>
                     </div>
@@ -42,6 +55,7 @@
                     </div>
                 </div>
                 <div class="app__container--form">
+                    <div class="border-linear"></div>
                     <div class="form-title">
                         Contact a Representative<br>
                         Today to Learn More <br>
@@ -167,7 +181,8 @@
                     <p>Enlarge the variety of floor plans below to get an inside look into the spacious layout of our apartment homes!</p>
                 </div>
 
-                <div class="list-product">
+                <div class="list-product" id="haha">
+                   
                     <div class="list-item">
                         <img src="./assets/images/icon-map.png" alt="" class="product-img">
                         <h1 class="product-name">Floor Plan Name</h1>
@@ -186,8 +201,27 @@
                         <p class="product-size">Unit Size: 1265 Sq Ft</p>
                         <button class="btn-product">Enlarge ></button>
                     </div>
-                </div>
-
+                    <div class="list-item">
+                        <img src="./assets/images/icon-map.png" alt="" class="product-img">
+                        <h1 class="product-name">Floor Plan Name</h1>
+                        <p class="product-size">Unit Size: 1265 Sq Ft</p>
+                        <button class="btn-product">Enlarge ></button>
+                    </div>
+                    <div class="list-item">
+                        <img src="./assets/images/icon-map.png" alt="" class="product-img">
+                        <h1 class="product-name">Floor Plan Name</h1>
+                        <p class="product-size">Unit Size: 1265 Sq Ft</p>
+                        <button class="btn-product">Enlarge ></button>
+                    </div>
+                    <div class="list-item">
+                        <img src="./assets/images/icon-map.png" alt="" class="product-img">
+                        <h1 class="product-name">Floor Plan Name</h1>
+                        <p class="product-size">Unit Size: 1265 Sq Ft</p>
+                        <button class="btn-product">Enlarge ></button>
+                    </div>
+                    
+              
+                </div>          
                 <a class="list-link" href="#">Contact Us for Pricing ></a>
             </div>
 
@@ -234,6 +268,18 @@
         </div>
     </div>
     </div>
+
+    <script ttype="text/javascript">
+
+        $(document).ready(function(){
+          $('#haha').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true,
+          });
+        });
+      </script>
 </body>
 
 </html>
